@@ -1,0 +1,63 @@
+/* Quick Reset */
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Generic Styles */
+.container {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav a, nav a:active, nav a:hover {
+    color: inherit;
+}
+
+
+
+
+/* Styles for HEADER */
+header {
+    color: midnightblue;
+    background-color: #00000033;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo .brand-image {
+    display: inline-block;
+    color: aliceblue;
+    background-color: midnightblue;
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.logo .brand-name {
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+}
+
